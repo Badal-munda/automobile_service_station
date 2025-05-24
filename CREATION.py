@@ -4,7 +4,7 @@ try:
     conn = sql.connect(
         host='localhost',
         user='root',          # Confirm this is correct
-        passwd='Badalmunda@0183',      # Replace with the correct password
+        passwd='manager',      # Replace with the correct password
         database='AUTO_MOBILE_SURVICE_STATION'
     )
     if conn.is_connected():
