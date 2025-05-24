@@ -8,7 +8,7 @@ def connect_to_db():
         temp_conn = sql.connect(
             host=os.getenv('DB_HOST', 'localhost'),
             user=os.getenv('DB_USER', 'root'),
-            passwd=os.getenv('DB_PASS', 'Badalmunda@0183')
+            passwd=os.getenv('DB_PASS', 'manager')
         )
         temp_cursor = temp_conn.cursor()
         
